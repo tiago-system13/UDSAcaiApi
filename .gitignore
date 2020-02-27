@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/UDSAcaiApi/obj
+/UDSAcaiApi.Dados/bin/Debug/netcoreapp2.2
+/UDSAcaiApi.Dados/obj
+/UDSAcaiApi.Dominio/bin/Debug/netcoreapp2.2
+/UDSAcaiApi.Dominio/obj
+/UDSAcaiApi.Teste/bin/Debug
+/UDSAcaiApi.Teste/obj
