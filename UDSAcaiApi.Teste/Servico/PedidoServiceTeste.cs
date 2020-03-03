@@ -44,9 +44,9 @@ namespace UDSAcaiApi.Teste.Servico
             var PedidoResultado = pedidoServiceMock.Object.ObterPorId(It.IsAny<int>());
 
             Assert.NotNull(PedidoResultado);
-            Assert.AreEqual(pedidoDbMock.PreparacaoId, pedidoDbMock.PreparacaoId);
-            Assert.AreEqual(pedidoDbMock.Total, pedidoDbMock.Total);
-            Assert.AreEqual(pedidoDbMock.Duracao, pedidoDbMock.Duracao);
+            Assert.AreEqual(PedidoResultado.PreparacaoId, pedidoDbMock.PreparacaoId);
+            Assert.AreEqual(PedidoResultado.Total, pedidoDbMock.Total);
+            Assert.AreEqual(PedidoResultado.Duracao, pedidoDbMock.Duracao);
         }
 
         [Test]
